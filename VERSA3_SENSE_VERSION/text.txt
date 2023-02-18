@@ -1,0 +1,1 @@
+None of the art is included- Create your own digital pets. Also the package.json is not included because it has my personal developer information. 
