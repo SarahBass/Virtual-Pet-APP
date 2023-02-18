@@ -1,0 +1,56 @@
+<svg>
+  <!-- setting background -->
+  <svg><image id="background" href="0.jpeg" x="0" y="0" width="100%" height="100%"/></svg>
+    
+  <!-- Animation Groups -->
+  <svg><image id="poop" href="blank.png" class="poop"/></svg>
+  
+ <svg>
+  <defs>
+    <symbol id="demo">
+      <g id="demogroup" transform="translate(0%,0%)" pointer-events="visible">
+        <image id="pet" class = "dog" />
+      <animateTransform attributeType="translate"
+      from="0%,0%" to="0%,5%" begin="enable" dur="3" /> 
+      </g>
+    </symbol>
+  </defs>
+  <svg width="100%" height="100%">
+    <use id="demoinstance" href="#demo" class = "dog" />
+  </svg>
+</svg>
+   
+    
+    <svg><image id="object" href="blank.png" x="0" y="0" width="100%" height="100%"/></svg>
+  
+  <!-- clock information set for 24 hour clock and DD MM YYYY-->
+  
+  <text id="myLabel" class="showbigLabel">
+  <text id="date" class= "labelbigyellow"/> 
+  <text id="ampm" class= "showbigampm"/> 
+  <text id="evolution" class= "meter"/> 
+    
+ 
+  <!-- battery information -->
+  <text id="batteryLabel" x="243" y="23" class="label" />
+  
+  <!-- Data information -->
+  <text id="stepsLabel" class="labelpurple" />
+   <text id="distancelabel" x="42" y="105" class="labellightblue" /> 
+   <text id="stairslabel" x="42" y="135" class="labellightblue" />   
+   <text id="firelabel" x="42" y="165" class="labellightblue" /> 
+   <text id="boltlabel" x="42" y="195" class="labellightblue" />   
+   <text id="heartlabel" x="42" y="225" class="labellightblue" />  
+      
+ <text id="sleepmeter" x="250" y="160" class= "meters"/> 
+    <text id="hungermeter" x="250" y="195" class= "meters"/> 
+  </text>
+
+  
+ <!-- Button --> 
+ <use id="button-1" href="#text-button" class="none text-button primary application-fill" />
+<use id="button-2" href="#icon-button" class="none medium-button application-fill plus-button" />
+  <use id="button-3" href="#icon-button" class="none medium-button application-fill plus-button" />
+  <use id="button-4" href="#icon-button" class="none medium-button application-fill plus-button" />
+  
+</svg>
