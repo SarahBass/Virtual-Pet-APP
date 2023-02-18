@@ -1,0 +1,50 @@
+This includes the 4.3 SDK Version. No Art or .Json file is included. Create your own art and give them the same naming conventions. 
+
+File name for pet waste: 
+
+gameoverv0a0.png
+
+gameoverv0a1.png
+
+poopv0a0.png
+
+poopv0a1.png
+
+snakev0a0.png
+
+snakev0a1.png
+
+...
+
+Type of enemy or pet waste + version based on severity 0-3 + animation seconds%2 to flicker 
+
+File name for pet:
+
+babyv0a0.png
+
+babyv0a1.png
+
+babyv1a0.png
+
+babyv1a1.png
+
+babyv2a0.png
+
+babyv2a1.png
+
+...
+
+Type + Version + seconds%2 to flicker between animations.
+
+a is animation. v is version. 
+
+File name for button:
+
+ 00.png
+ 
+ 01.png
+ 
+ ...
+ 
+ The first digit is the button number, the second digit is the seconds%2 to flicker between two animation slides
+ 
